@@ -23,7 +23,7 @@ app.use(express.static(publicDirectoryPath))
 app.get('', (req,res) => {
     res.render('index',{
         title:"Weather app",
-        name: 'Harry Potter'
+        name: 'Aman Waghmare'
     })
 })
 
@@ -31,14 +31,14 @@ app.get('/help',(req,res) =>{
     res.render('help',{
         title:'Help',
         helpText:'This is help text',
-        name:'Harry Potter'
+        name:'Aman Waghmare'
     })
 })
 
 app.get('/about', (req,res) =>{
     res.render('about',{
         title:"About Me",
-        name: 'Harry Potter'
+        name: 'Aman Waghmare'
     })
 })
 
@@ -89,7 +89,7 @@ app.get('/help/*', (req,res) =>{
     res.render('404',{
         errorMessage:'Help article not found',
         title:"404",
-        name: 'Harry Potter'
+        name: 'Aman Waghmare'
     })
 })
 
@@ -97,7 +97,7 @@ app.get('*', (req,res) =>{
     res.render('404',{
         errorMessage:'Page not found',
         title:"404",
-        name: 'Harry Potter'
+        name: 'Aman Waghmare'
     })
 })
 
