@@ -1,6 +1,7 @@
 {
   "name": "src",
   "version": "1.0.0",
+  "description": "",
   "main": "app.js",
   "scripts": {
     "start": "node src/app.js",
@@ -17,5 +18,4 @@
   "devDependencies": {
      "nodemon": "^2.0.15"
   },
-  "description": ""
 }
